@@ -1,0 +1,5 @@
++ command : php artisan make:migration add_columns_to_products_table --table=products
+    run this command when u migrate table but u forgot to write column on table. So this command help u add column to table
++ command : php artisan migrate 
+    run this command after u create table or create column already
+
