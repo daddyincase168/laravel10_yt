@@ -1,5 +1,20 @@
+=====> Migration command <=====
+
 + command : php artisan make:migration add_columns_to_products_table --table=products
-    run this command when u migrate table but u forgot to write column on table. So this command help u add column to table
+    run this command if u wanna add column to table
 + command : php artisan migrate 
     run this command after u create table or create column already
-
++ command : php artisan migrate:rollback
+    run this command derm3 teanh table mk tomrong derm vinh
++ command : php artisan migrate:reset
+    run this command for Rollback all migrations
++ command : php artisan migrate:refresh
+    run this command for Rollback all and re-run all migrations
++ command : php artisan migrate:fresh
+    run this command for Drop all tables and re-run all migrations
++ command : php artisan migrate:status 
+    run this command for Show the status of each migration (ran or not)
++ command : php artisan make:migration modify_columns_in_products_table
+    run this command for update column if u rename column or change sth else
++ command : php artisan make:migration remove_columns_from_products_table
+    run this command for remove column on table
