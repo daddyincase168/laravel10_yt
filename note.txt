@@ -45,3 +45,15 @@
 
     run this command after u write code on ProductSeeder to insert data to table products 
     after run this command we will see data on table products
+
++ command : php artisan make:model Product
+
+    if u wanna use factory , u could create model first
+
++ command : php artisan make:factory ProductFactory
+
+    facetory use for create random data 
+
++ command : php artisan db:seed --class=DatabaseSeeder
+
+    pel yg pjun data tam DatabaseSeeder yg trv run command ng cuz yg random data mk pi factory
