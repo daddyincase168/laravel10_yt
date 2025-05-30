@@ -16,3 +16,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('hello' , function (){
+    return "Hello world";
+});
+
+// run optimize after write new router
+
+Route::get('home' , function (){
+    return "Home Page";
+});
+
+// route with parameter 
+Route::get('about/{title}' , function ($title) {
+    return $title;
+});
