@@ -31,3 +31,8 @@ Route::get('home' , function (){
 Route::get('about/{title}' , function ($title) {
     return $title;
 });
+
+// router access with view
+Route::get('test1' , function () {
+    return view('test1');
+});
